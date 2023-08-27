@@ -1,0 +1,142 @@
+//.ball {
+//  position: absolute;
+//  width: 50px;
+//  height: 50px;
+//  background-color: blue;
+//  border-radius: 50%;
+//  opacity: 0.7;
+//  box-shadow: blue 0 0 100px 100px;
+//}
+
+//.ball:first-of-type {
+//  top: 15%;
+//  left: 15%;
+//  animation: movementOne 10s ease-in-out infinite;
+//  animation-delay: 0.2s;
+//}
+//.ball:nth-child(2){
+//  bottom: 15%;
+//  right: 15%;
+//  animation: movementTwo 10s ease-in-out infinite;
+//  animation-delay: 0.2s;
+//}
+
+//@keyframes movementOne {
+//  0% {
+//    transform: translate(0, 0);
+//    width: 50px;
+//    height: 50px;
+//  }
+//  50% {
+//    transform: translate(30px, 40px);
+//    width: 100px;
+//    height: 100px;
+//  }
+//  100% {
+//    transform: translate(0, 0);
+//    width: 50px;
+//    height: 50px;
+//  }
+//}
+//
+//@keyframes movementTwo {
+//  0% {
+//    transform: translate(0, 0);
+//    width: 50px;
+//    height: 50px;
+//  }
+//  50% {
+//    transform: translate(-30px, -40px);
+//    width: 100px;
+//    height: 100px;
+//  }
+//  100% {
+//    transform: translate(0, 0);
+//    width: 50px;
+//    height: 50px;
+//  }
+//}
+
+.wrapper {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  overflow: scroll;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.avatar {
+  background-color: transparent;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  font-family: 'Paprika', cursive;
+}
+
+.about {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'EB Garamond', serif;
+}
+
+.bio {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding: 10px;
+  margin: 0 20px;
+  font-family: 'EB Garamond', serif;
+  border-radius: 20px;
+}
+
+.contacts {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  a {
+    cursor: default;
+  }
+}
+
+.icon svg {
+  width: 30px;
+  height: 30px;
+  fill: #7286D3;
+  border-radius: 6px;
+  box-shadow: #7286D3 0 0 10px 1px;
+}
+
+.footer {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  //margin-bottom: 20px;
+  font-family: 'EB Garamond', sans-serif;
+}
