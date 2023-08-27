@@ -1,5 +1,5 @@
 import '../css/normalize.css';
-import '../css/style.css';
+import '../css/style.scss';
 import '../css/background.scss';
 import '../css/card.scss';
 import { PreLoader } from "./preLoader.js";
