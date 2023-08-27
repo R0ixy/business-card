@@ -1,6 +1,6 @@
 import '../css/preLoader.scss';
 
-export const PreLoader = () => {
+const PreLoader = () => {
   const quotes = ['Think Different', 'Stay foolish', 'Dream', 'Just Do it'];
   document.getElementById('preLoaderContent').innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
 
@@ -11,3 +11,5 @@ export const PreLoader = () => {
     }, 1000);
   });
 };
+
+PreLoader();

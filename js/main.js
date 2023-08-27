@@ -2,9 +2,6 @@ import '../css/normalize.css';
 import '../css/style.scss';
 import '../css/background.scss';
 import '../css/card.scss';
-import { PreLoader } from "./preLoader.js";
-
-PreLoader();
 
 console.log('You\'re a curious one! I like you <3')
 
