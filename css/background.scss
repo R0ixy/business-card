@@ -51,12 +51,20 @@ head::after {
   animation-delay: -19s;
 }
 
-@media screen and (min-width: 600px) {
-  .card {
-    max-width: 500px;
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 600px) {
+    min-width: 500px;
+    width: calc(100vw - 60px);
+    max-width: calc(100vh - 60px);
     border-radius: 30px;
     box-shadow: #7286D3 0 0 10px 1px;
-    height: calc(100vh - 40px);
+    max-height: fit-content;
+    height: calc(100vh - 60px);
     margin: 20px 0;
   }
 }
