@@ -1,7 +1,7 @@
 import '../css/preLoader.scss';
 
 const PreLoader = () => {
-  const quotes = ['Think Different', 'Stay foolish', 'Dream', 'Just Do it'];
+  const quotes = ['Think Different', 'Stay foolish', 'Dream', 'Just Do It'];
   document.getElementById('preLoaderContent').innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
 
   document.addEventListener('DOMContentLoaded', () => {
