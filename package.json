@@ -1,6 +1,7 @@
 {
-  "name": "buisiness-card",
+  "name": "business-card",
   "private": true,
+  "author": "Mykyta Komarov",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
